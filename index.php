@@ -25,7 +25,7 @@
 							print "<tr>";
 							$i=0;
 							foreach ($row as $col) {
-								if(i==1 || i==2){
+								if($i==1 || $i==2){
 									print '<td>'.$col.'</td>';
 								}
 								$i++;
