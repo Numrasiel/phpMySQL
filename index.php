@@ -6,7 +6,7 @@
 	</head>
 	<body id="dt_example">
 		<div id="container">
-			<h1>Tabla 1</h1>
+			<h1>Tabla 2</h1>
 			<table cellpadding="0" cellspacing="0" border="0" class="display" id="verbos">
 				<thead>
 					<tr>
