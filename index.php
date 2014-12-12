@@ -19,7 +19,7 @@
 					 <?php
 						include 'db_connect.php';  //include the db_connect.php file
 						$get = new Connection("db1");
-						$query = $get->query("SELECT * travelmanager.end_point");
+						$query = $get->query("SELECT * travelmanager.start_point");
 						$rowarray = $get->fetch($query);
 						foreach ($rowarray as $row) {
 							print "<tr>";
