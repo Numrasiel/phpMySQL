@@ -10,9 +10,8 @@
 			<table cellpadding="0" cellspacing="0" border="0" class="display" id="verbos">
 				<thead>
 					<tr>
-						<th>c1</th>
-						<th>c2</th>
-						<th>c3</th>
+						<th>direccion</th>
+						<th>nombre</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -22,9 +21,14 @@
 						$query = $get->query("SELECT * FROM travelmanager.start_point");
 						$rowarray = $get->fetch($query);
 						foreach ($rowarray as $row) {
+							
 							print "<tr>";
+							$i=0;
 							foreach ($row as $col) {
-								print '<td>'.$col.'</td>';
+								if(i==1 || i==2){
+									print '<td>'.$col.'</td>';
+								}
+								$i++;
 							}
 							print "</tr>";
 						}
