@@ -21,8 +21,11 @@
 						$query = $get->query("SELECT * FROM travelmanager.start_point");
 						$rowarray = $get->fetch($query);
 						foreach ($rowarray as $row) {
-							
 							print "<tr>";
+							print '<td>'.$col[1].'</td>';
+							print '<td>'.$col[2].'</td>';
+							print "</tr>";
+							/*print "<tr>";
 							$i=0;
 							foreach ($row as $col) {
 								if($i==1 || $i==2){
@@ -30,7 +33,7 @@
 								}
 								$i++;
 							}
-							print "</tr>";
+							print "</tr>";*/
 						}
 					?>
 				</tbody>
@@ -38,7 +41,6 @@
 					<tr>
 						<th>c1</th>
 						<th>c2</th>
-						<th>c3</th>
 						<th></th>
 					</tr>
 				</tfoot>
