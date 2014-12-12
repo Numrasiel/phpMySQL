@@ -22,10 +22,6 @@
 						$rowarray = $get->fetch($query);
 						foreach ($rowarray as $row) {
 							print "<tr>";
-							print '<td>'.$row[1].'</td>';
-							print '<td>'.$row[2].'</td>';
-							print "</tr>";
-							/*print "<tr>";
 							$i=0;
 							foreach ($row as $col) {
 								if($i==1 || $i==2){
@@ -33,7 +29,7 @@
 								}
 								$i++;
 							}
-							print "</tr>";*/
+							print "</tr>";
 						}
 					?>
 				</tbody>
