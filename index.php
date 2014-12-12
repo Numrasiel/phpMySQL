@@ -22,8 +22,8 @@
 						$rowarray = $get->fetch($query);
 						foreach ($rowarray as $row) {
 							print "<tr>";
-							print '<td>'.$col[1].'</td>';
-							print '<td>'.$col[2].'</td>';
+							print '<td>'.$row[1].'</td>';
+							print '<td>'.$row[2].'</td>';
 							print "</tr>";
 							/*print "<tr>";
 							$i=0;
